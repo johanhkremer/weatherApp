@@ -19,7 +19,7 @@ if (appElement) {
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '/public/weather.json' // make sure path is correct
+    path: '/weather.json' // make sure path is correct
   });
 
   const searchButton = document.querySelector('#search-button');
