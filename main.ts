@@ -19,7 +19,7 @@ if (appElement) {
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: './src/assets/lottie/weather.json' // make sure path is correct
+    path: '/public/lottie/weather.json' // make sure path is correct
   });
 
   const searchButton = document.querySelector('#search-button');
